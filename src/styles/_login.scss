@@ -1,0 +1,51 @@
+
+.login{
+    width: 490px;
+    height: 700px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 80px;
+    margin: auto;
+    .login_logo_div{
+        padding-bottom: 25px;
+        .login_logo{
+            width: 150px;
+            margin:auto;
+            height: 150px;
+        }
+    }
+    .login_welcome_div{
+        padding-top:15px;
+        padding-bottom: 20px;
+        .login_welcome{
+            font-family: 'Comic Sans MS';
+            font-weight: normal;
+            font-size: 28px;
+            line-height: 39px;
+            text-decoration: underline;
+            text-decoration-color:$Dgreen;
+        }
+    }
+    .login_form_div{
+        padding: 15px;
+        .login_form_div1{
+            padding:10px;
+        }
+        .login_submit_div{
+            padding: 20px;
+            #submit{
+                background-color: $Dgreen;
+                color: black;
+            }
+        }
+    }
+}
+
+
+
+
+
+
