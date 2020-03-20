@@ -15,7 +15,8 @@
           <input type="password" class="form-control" placeholder="Password" required>
         </div>
         <div class="login_submit_div">
-          <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" id="submit" class="btn btn-primary">
+            <router-link to="/ModelSelection">Submit</router-link></button>
         </div>
     </form>
     </div>
