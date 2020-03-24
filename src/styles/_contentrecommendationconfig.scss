@@ -1,0 +1,48 @@
+.rootContainer {
+    background-color: $bgGrey;
+    height: 100vh;
+
+    .contentrec_formHolder {
+        background-color: $white;
+        padding: 3%;
+
+        .row {
+            text-align: left;
+
+            .contentrec_titleHolder {
+                .contentrec_title {
+                    font-weight: 600;
+                }
+            }
+
+            .contentrec_inputFormHolder {
+                margin-top: 2rem;
+
+                .contentrec_inputForm {
+                    padding-left: 3rem;
+
+                    .contentrec_formElement {
+                        .contentrec_labelHolder {
+                            label {
+                                font-weight: 600;
+                                margin-right: 0.2rem;
+                            }
+
+                            .contentrec_requiredMark {
+                                font-weight: 600;
+                            }
+                        }
+
+                        .contentrec_inputHolder {
+                            margin-bottom: 2rem;
+
+                            .contentrec_formInput {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

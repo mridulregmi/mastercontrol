@@ -1,0 +1,48 @@
+.rootContainer {
+    background-color: $bgGrey;
+    height: 100vh;
+
+    .cc_formHolder {
+        background-color: $white;
+        padding: 3%;
+
+        .row {
+            text-align: left;
+
+            .cc_titleHolder {
+                .cc_title {
+                    font-weight: 600;
+                }
+            }
+
+            .cc_inputFormHolder {
+                margin-top: 2rem;
+
+                .cc_inputForm {
+                    padding-left: 3rem;
+
+                    .cc_formElement {
+                        .cc_labelHolder {
+                            label {
+                                font-weight: 600;
+                                margin-right: 0.2rem;
+                            }
+
+                            .cc_requiredMark {
+                                font-weight: 600;
+                            }
+                        }
+
+                        .cc_inputHolder {
+                            margin-bottom: 2rem;
+
+                            .cc_formInput {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

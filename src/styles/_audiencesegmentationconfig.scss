@@ -1,0 +1,48 @@
+.rootContainer {
+    background-color: $bgGrey;
+    height: 100vh;
+
+    .aud_formHolder {
+        background-color: $white;
+        padding: 3%;
+
+        .row {
+            text-align: left;
+
+            .aud_titleHolder {
+                .aud_title {
+                    font-weight: 600;
+                }
+            }
+
+            .aud_inputFormHolder {
+                margin-top: 2rem;
+
+                .aud_inputForm {
+                    padding-left: 3rem;
+
+                    .aud_formElement {
+                        .aud_labelHolder {
+                            label {
+                                font-weight: 600;
+                                margin-right: 0.2rem;
+                            }
+
+                            .aud_requiredMark {
+                                font-weight: 600;
+                            }
+                        }
+
+                        .aud_inputHolder {
+                            margin-bottom: 2rem;
+
+                            .aud_formInput {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

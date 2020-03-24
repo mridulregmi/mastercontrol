@@ -1,5 +1,10 @@
-@import 'node_modules/bootstrap/scss/bootstrap';
-@import 'variables';
-@import 'about';
-@import 'login';
-@import 'modelselection';
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap-vue/src/index.scss";
+@import "variables";
+@import "GlobalHeader";
+@import "login";
+@import "modelselection";
+@import "audiencesegmentationconfig";
+@import "clickconversionconfig";
+@import "webconversionconfig";
+@import "contentrecommendationconfig";
